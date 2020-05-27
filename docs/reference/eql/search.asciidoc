@@ -172,6 +172,8 @@ the https://en.wikipedia.org/wiki/Unix_time[Unix epoch], in ascending order.
 [source,console-result]
 ----
 {
+  "is_partial": false,
+  "is_running": false,
   "took": 60,
   "timed_out": false,
   "hits": {
@@ -288,6 +290,8 @@ contains the shared `agent.id` value for each matching event.
 [source,console-result]
 ----
 {
+  "is_partial": false,
+  "is_running": false,
   "took": 60,
   "timed_out": false,
   "hits": {
