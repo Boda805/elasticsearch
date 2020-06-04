@@ -144,7 +144,8 @@ public class EqlPlugin extends Plugin implements ActionPlugin {
             return List.of(
                 new RestEqlSearchAction(),
                 new RestEqlStatsAction(),
-                new RestEqlGetAsyncResultAction()
+                new RestEqlGetAsyncResultAction(),
+                new RestEqlDeleteAsyncResultAction()
             );
         }
         return List.of();
