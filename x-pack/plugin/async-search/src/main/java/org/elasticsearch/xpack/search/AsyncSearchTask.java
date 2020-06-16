@@ -134,8 +134,8 @@ final class AsyncSearchTask extends SearchTask implements AsyncTask {
     }
 
     @Override
-    public void cancelTask(TaskManager taskManager, Runnable runnable, String reason) {
-        cancelTask(runnable, reason);
+    public void cancelTask(TaskManager taskManager, Runnable runnable) {
+        cancelTask(runnable);
     }
 
     /**
